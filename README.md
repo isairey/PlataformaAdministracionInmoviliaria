@@ -1,116 +1,410 @@
-# Real Estate Rental and Tenant Management System - Property Plus
+<div align="center">
 
-Property Plus is a real estate rental and tenant management system. It is a web application that allows two types of users to use the application. The two types of users are the owner and the tenant. The owner can post a property for rent, manage tenants, register rent payment, and create a property lease. The tenant can search and filter properties, view property details, send an email to the owner of the property, and use the built-in chat application for communication between the owner and the tenant.
+<img width="220" src="https://cdn-icons-png.flaticon.com/512/619/619153.png" />
 
-Live Site - [Property Plus](https://property-plus.onrender.com/)
+# 🏢 Property Plus MX
 
-## Features
+### Plataforma de administración inmobiliaria y rentas 🚀
 
-- Post a property for rent
-- Search and filter properties
-- View property details
-- Built-in Chat Application for communication between owner and tenant
-- Secure JWT authentication using access and refresh tokens
-- Send emails between owner and tenant
-- Create Property Lease
-- Manage tenants
-- Register Rent Payment
+<p align="center">
+  <b>Property Plus MX</b> es un sistema web moderno para la administración de propiedades, gestión de inquilinos y control de rentas, diseñado para propietarios y arrendatarios mediante una experiencia intuitiva y segura.
+</p>
 
-## Configuration and Installation Instructions
+<p align="center">
+  <img src="https://img.shields.io/badge/RealEstate-Management-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+  <img src="https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=node.js&logoColor=white">
+  <img src="https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb&logoColor=white">
+</p>
 
-### Prerequisites
+<p align="center">
+  <a href="#-acerca-del-proyecto">Acerca</a> •
+  <a href="#-características">Características</a> •
+  <a href="#-tecnologías-utilizadas">Tecnologías</a> •
+  <a href="#-instalación">Instalación</a> •
+  <a href="#-roadmap">Roadmap</a>
+</p>
 
-- [Node.js](https://nodejs.org/en/download/)
-- [React.js](https://facebook.github.io/react/)
-- [npm](https://www.npmjs.com/)
-- [MongoDB](https://www.mongodb.com/)
-- [Cloudinary](https://cloudinary.com/)
-- [Ethereal Email](https://ethereal.email/)
+</div>
 
-1. Clone the repository:
+---
+
+# 🌌 Acerca del proyecto
+
+**Property Plus MX** es una plataforma inmobiliaria enfocada en la administración de propiedades y comunicación entre propietarios e inquilinos.
+
+La plataforma permite:
+
+- 🏠 Publicar propiedades en renta
+- 🔍 Buscar y filtrar propiedades
+- 👥 Gestión de inquilinos
+- 💬 Chat en tiempo real
+- 📧 Comunicación vía correo electrónico
+- 📄 Generación de contratos
+- 💳 Registro de pagos de renta
+- 🔐 Seguridad con JWT
+
+El proyecto fue desarrollado para practicar:
+
+- Desarrollo Full Stack
+- Arquitectura MERN
+- Autenticación JWT
+- MongoDB
+- Dockerización
+- Comunicación en tiempo real
+
+---
+
+# ✨ Características
+
+## 🏠 Gestión inmobiliaria
+
+- 📋 Registro de propiedades
+- 🏢 Administración de inmuebles
+- 📸 Imágenes de propiedades
+- 📍 Información detallada
+- 🔍 Filtros avanzados
+
+---
+
+## 👥 Gestión de inquilinos
+
+- 👤 Registro de usuarios
+- 📄 Gestión de contratos
+- 💳 Historial de pagos
+- 📧 Comunicación integrada
+- 🏘️ Administración de arrendamientos
+
+---
+
+## 💬 Comunicación integrada
+
+- 💬 Chat en tiempo real
+- 📧 Correos automáticos
+- 🔔 Notificaciones
+- 📲 Comunicación propietario-inquilino
+
+---
+
+## 🔒 Seguridad
+
+- 🔑 JWT Authentication
+- ♻️ Refresh Tokens
+- 🛡️ Protección de rutas
+- 🔐 Recuperación de contraseña
+- 📧 Verificación de correo
+
+---
+
+# 🛠️ Tecnologías utilizadas
+
+## 🌐 Frontend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,vite,html,css,js" />
+</p>
+
+- React.js
+- Vite
+- HTML5
+- CSS3
+- JavaScript
+
+---
+
+## ⚙️ Backend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express" />
+</p>
+
+- Node.js
+- Express.js
+- APIs REST
+- JWT Authentication
+
+---
+
+## 🗄️ Base de datos
+
+<p>
+  <img src="https://skillicons.dev/icons?i=mongodb" />
+</p>
+
+- MongoDB
+- Mongoose
+- NoSQL
+
+---
+
+## ☁️ Servicios externos
+
+<p>
+  <img src="https://skillicons.dev/icons?i=docker" />
+</p>
+
+- Cloudinary
+- Ethereal Email
+- Docker
+- Docker Compose
+
+---
+
+# 📂 Estructura del proyecto
 
 ```bash
-$ git clone https://github.com/SonamRinzinGurung/Real-Estate-Rental-and-Tenant-Management-System.git
+PropertyPlusMX/
+│
+├── client/
+│   ├── src/
+│   ├── public/
+│   └── .env.local
+│
+├── server/
+│   ├── src/
+│   ├── routes/
+│   ├── controllers/
+│   └── .env
+│
+├── docker/
+│
+├── package.json
+│
+└── README.md
 ```
 
-2. Install the required packages for the backend:
+---
+
+# ⚡ Instalación
+
+## 📋 Requisitos
+
+- Node.js
+- npm
+- MongoDB
+- Cloudinary
+- Docker (opcional)
+
+---
+
+# 🚀 Configuración del proyecto
+
+## 1️⃣ Clonar repositorio
 
 ```bash
-$ cd server
-$ npm install
+git clone https://github.com/SonamRinzinGurung/Real-Estate-Rental-and-Tenant-Management-System.git
 ```
 
-3. Open a new terminal session and install the required packages for the frontend:
+---
+
+## 2️⃣ Instalar backend
 
 ```bash
-$ cd client
-$ npm install
+cd server
+npm install
 ```
 
-4. Configure the environment variables inside the server folder:
+---
+
+## 3️⃣ Instalar frontend
 
 ```bash
+cd client
+npm install
+```
 
-- create a .env file and add the following variables:
-- generate secret keys for jwt tokens using online tools
+---
 
-MONGO_URI= <your_mongo_uri>
-ACCESS_TOKEN_SECRET_OWNER= <your_access_token_secret_owner>
-ACCESS_TOKEN_SECRET_TENANT= <your_access_token_secret_tenant>
-REFRESH_TOKEN_SECRET_OWNER= <your_refresh_token_secret_owner>
-REFRESH_TOKEN_SECRET_TENANT= <your_refresh_token_secret_tenant>
+# 🔐 Variables de entorno
+
+## ⚙️ Backend `.env`
+
+```env
+MONGO_URI=
+ACCESS_TOKEN_SECRET_OWNER=
+ACCESS_TOKEN_SECRET_TENANT=
+REFRESH_TOKEN_SECRET_OWNER=
+REFRESH_TOKEN_SECRET_TENANT=
 ACCESS_LIFETIME=15m
 REFRESH_LIFETIME=7d
-CLOUDINARY_CLOUD_NAME=<your_cloudinary_cloud_name>
-CLOUDINARY_API_KEY= <your_cloudinary_api_key>
-CLOUDINARY_API_SECRET= <your_cloudinary_api_secret>
-RESET_PASSWORD_KEY= <your_reset_password_key>
-EMAIL_VERIFICATION_KEY= <your_email_verification_key>
+
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
+
+RESET_PASSWORD_KEY=
+EMAIL_VERIFICATION_KEY=
+
 CLIENT_URL=http://localhost:3000
+
 EMAIL_HOST=smtp.gmail.com
 EMAIL_PORT=587
-EMAIL_USER= <your_gmail_address>
-EMAIL_PASS= <your_gmail_pass> or <your_gmail_app_password>
+EMAIL_USER=
+EMAIL_PASS=
 ```
 
-5. Configure the environment variables inside the client folder:
+---
 
-```bash
+## 🌐 Frontend `.env.local`
 
-- create a .env.local file and add the following variables:
-
+```env
 VITE_APP_BASE_URL=http://localhost:3000
 VITE_APP_API_URL=http://localhost:5000/api
 VITE_APP_API_HOST=http://localhost:5000
 ```
 
-6. Run the application:
+---
+
+# ▶️ Ejecutar proyecto
+
+## 🚀 Backend
 
 ```bash
-$ cd server
-$ npm run dev
+cd server
+npm run dev
 ```
-*** 
 
-## Using Docker (Optional)
-1. Make sure you have [Docker](https://www.docker.com/get-started/) installed on your machine.
-2. Run the following command to build the containers in development mode:
+---
+
+## 🌐 Frontend
 
 ```bash
-$ npm run dev:build
+cd client
+npm run dev
 ```
-3. Run the following command to start the containers:
+
+---
+
+# 🐳 Docker
+
+## ⚡ Construir contenedores
 
 ```bash
-$ npm run dev
+npm run dev:build
 ```
-3. The backend server will be running on `http://localhost:5000` and the frontend will be running on `http://localhost:3000`.
-***
 
-### Author
+---
 
-[Sonam Rinzin Gurung](https://www.linkedin.com/in/sonam-rinzin-gurung-59060b211/)
+## ▶️ Ejecutar contenedores
 
-### Repository
+```bash
+npm run dev
+```
 
-[Property Plus](https://github.com/SonamRinzinGurung/Real-Estate-Rental-and-Tenant-Management-System)
+---
+
+# 🌍 Acceso al sistema
+
+## Frontend
+
+```bash
+http://localhost:3000
+```
+
+---
+
+## Backend
+
+```bash
+http://localhost:5000
+```
+
+---
+
+# 📸 Vista previa
+
+<div align="center">
+
+<img width="1000" src="https://images.unsplash.com/photo-1560185007-cde436f6a4d0?q=80&w=1200&auto=format&fit=crop" />
+
+</div>
+
+---
+
+# 🧠 Objetivos del proyecto
+
+## 🎯 Aprender y practicar
+
+- MERN Stack
+- MongoDB
+- JWT Authentication
+- Chat en tiempo real
+- Gestión inmobiliaria
+- Docker
+- APIs REST
+
+---
+
+# 🚧 Roadmap
+
+## 🔮 Próximas mejoras
+
+- 📱 Aplicación móvil
+- 🤖 Recomendaciones inteligentes
+- 📊 Dashboard financiero
+- ☁️ Deploy cloud
+- 🔔 Notificaciones push
+- 💳 Pagos en línea
+- 🧾 Facturación electrónica SAT
+
+---
+
+# 🤝 Contribuciones
+
+Las contribuciones son bienvenidas ❤️
+
+## Cómo contribuir
+
+1. Fork del proyecto
+
+```bash
+git checkout -b feature/nueva-funcionalidad
+```
+
+2. Commit
+
+```bash
+git commit -m "✨ Nueva funcionalidad"
+```
+
+3. Push
+
+```bash
+git push origin feature/nueva-funcionalidad
+```
+
+4. Pull Request 🚀
+
+---
+
+# 👨‍💻 Autor
+
+<div align="center">
+
+## Property Plus MX — Plataforma inmobiliaria moderna
+
+Sistema desarrollado para administración de propiedades, rentas y comunicación digital entre propietarios e inquilinos 🇲🇽
+
+</div>
+
+---
+
+# 🌟 Apoya el proyecto
+
+⭐ Dale una estrella  
+🍴 Haz fork  
+📢 Comparte el proyecto
+
+---
+
+# 📜 Licencia
+
+Proyecto educativo y open source desarrollado para prácticas de gestión inmobiliaria, arquitectura MERN y administración de rentas digitales.
+
+---
+
+<div align="center">
+
+### 🏢 Property Plus MX — administración inteligente de propiedades y rentas 🚀
+
+</div>
