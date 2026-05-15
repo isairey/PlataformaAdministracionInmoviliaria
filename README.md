@@ -153,7 +153,7 @@ El proyecto fue desarrollado para practicar:
 # 📂 Estructura del proyecto
 
 ```bash
-PropertyPlusMX/
+PlataformaAdministracionInmoviliaria/
 │
 ├── client/
 │   ├── src/
@@ -192,7 +192,7 @@ PropertyPlusMX/
 ## 1️⃣ Clonar repositorio
 
 ```bash
-git clone https://github.com/SonamRinzinGurung/Real-Estate-Rental-and-Tenant-Management-System.git
+git clone https://github.com/isairey/PlataformaAdministracionInmoviliaria.git
 ```
 
 ---
@@ -381,7 +381,7 @@ git push origin feature/nueva-funcionalidad
 
 <div align="center">
 
-## Property Plus MX — Plataforma inmobiliaria moderna
+## Isai Reyes — Plataforma inmobiliaria moderna
 
 Sistema desarrollado para administración de propiedades, rentas y comunicación digital entre propietarios e inquilinos 🇲🇽
 
